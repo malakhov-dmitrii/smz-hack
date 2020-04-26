@@ -1,4 +1,28 @@
 .Footer {
   text-align: center;
-  margin: 15px;
+  padding: 15px;
+  display: flex;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  justify-content: space-evenly;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.IconContainer {
+  color: rgb(78, 78, 78);
+  font-weight: 600;
+  font-size: 0.65rem;
+}
+
+.Link {
+  
+  display: flex;
+  flex-direction: column;
+  color: rgb(51, 51, 51);
+  
+}
+
+.ActiveLink {
+  color: #01a964;
 }

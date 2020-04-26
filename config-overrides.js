@@ -38,8 +38,8 @@ module.exports = override(
         javascriptEnabled: true,
         modifyVars: {
             /** All default located here: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less */
-            '@primary-color': '#68AD45', // primary color for all components
-            '@link-color': '#1890ff', // link color
+            '@primary-color': '#01a964', // primary color for all components
+            '@link-color': '#01a964', // link color
             '@success-color': '#52c41a', // success state color
             '@warning-color': '#faad14', // warning state color
             '@error-color': '#f5222d', // error state color
